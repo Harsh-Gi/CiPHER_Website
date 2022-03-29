@@ -1,0 +1,184 @@
+@media screen and (min-width: 721px) {
+  .ContactUsOut{
+    border: 0.1vw solid transparent;
+    position: relative;
+    padding-top: 12vw;
+  }
+  .FooterBack{
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    width: 100%;
+    /* margin-bottom: -0.2vw; */
+  }
+  .ContactUs{
+    /* border: 1px solid green; */
+    position: relative;
+    width: 56%;
+    margin: 0vw auto 5vw auto;
+    /* background: #222e3fcb; */
+    background: rgba(34, 46, 63, 0.6);
+    padding: 1vw 5.5vw;
+    border-radius: 0.3vw 0.3vw 0.4vw 0.4vw;
+    /* backdrop-filter: blur(0.2vw); */
+    z-index: 1;
+  }
+  .ContactBack{
+    position: absolute;
+    top: 0vw;
+    left: 0.3%;
+    width: 99.4%;
+    z-index: 1;
+  }
+  .ContactHeading{
+    color: white;
+    margin: 0.85vw auto 0.85vw auto;
+    font-size: 1.25vw;
+    letter-spacing: 0.35vw;
+    font-weight: 100;
+  }
+  /* .ContactUs hr{
+    height: 0.1vw;
+    border-color: black;
+    background: black;
+    width: 100%;
+  } */
+  .ContactUsContent{
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw auto 0vw auto;
+  }
+  .FooterLogo{
+    width: 5vw;
+    filter: drop-shadow(0vw 0.5vw 1vw #1F65B1);
+    margin-right: 4vw;
+  }
+  .ContactUsContent div{
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 100%;
+  }
+  .ContactUsContent div p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ContactUsContent div p img{
+    width: 1.5vw;
+    margin-right: 2vw;
+  }
+  .LocationSpan{
+    font-size: 0.8vw;
+    color: white;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .CopyRightSpan{
+    font-size: 0.65vw;
+    color: white;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .ContactUsPartition{
+    height: 2vw;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  .ContactUsOut{
+    border: 0.1vw solid transparent;
+    position: relative;
+    padding-top: 25vw;
+  }
+  .FooterBack{
+    position: absolute;
+    bottom: 0vw;
+    left: 0vw;
+    width: 100%;
+    /* margin-bottom: -0.2vw; */
+  }
+  .ContactUs{
+    /* border: 1px solid green; */
+    position: relative;
+    width: 90%;
+    margin: 0vw auto 5vw auto;
+    /* background: #222e3fcb; */
+    background: rgba(34, 46, 63, 0.6);
+    padding: 4vw 6vw;
+    border-radius: 1.5vw 1.5vw 2vw 2vw;
+    /* backdrop-filter: blur(0.5vw); */
+    z-index: 1;
+  }
+  .ContactBack{
+    position: absolute;
+    top: 0vw;
+    left: 0.3%;
+    width: 99.4%;
+    z-index: 1;
+  }
+  .ContactHeading{
+    color: white;
+    margin: 4vw auto 5vw auto;
+    font-size: 4vw;
+    letter-spacing: 1.2vw;
+    font-weight: 100;
+  }
+  /* .ContactUs hr{
+    height: 0.1vw;
+    border-color: black;
+    background: black;
+    width: 100%;
+  } */
+  .ContactUsContent{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw auto 0vw auto;
+    padding-top: 2vw;
+  }
+  .FooterLogo{
+    width: 11vw;
+    filter: drop-shadow(0vw 0.5vw 1vw #1F65B1);
+    margin: 9vw auto 5vw auto;
+  }
+  .ContactUsContent div{
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 100%;
+  }
+  .ContactUsContent div p{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .ContactUsContent div p img{
+    width: 3vw;
+    margin-right: 2vw;
+  }
+  .LocationSpan{
+    font-size: 2.5vw;
+    color: white;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .CopyRightSpan{
+    font-size: 2.2vw;
+    color: white;
+    text-align: justify;
+    font-weight: 100;
+  }
+  .ContactUsPartition{
+    height: 5vw;
+  }
+}

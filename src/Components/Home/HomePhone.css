@@ -1,0 +1,185 @@
+@media screen and (max-width: 720px) {
+  .WelcomeSection{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    padding-top: 40vw;
+    margin: -30vw auto 4vw auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .RobotGIFClass{
+    width: 98%;
+    /* margin-right: 8vw; */
+  }
+  /* .WelcomeSection div{
+    width: 50%;
+    margin-left: 10vw;
+  } */
+  .WelcomeSection h1{
+    font-size: 11.5vw;
+    color: #8CC5F9;
+    font-weight: bold;
+    margin: 8vw auto 2vw auto;
+    padding: 0vw 10vw;
+    /* text-align: center; */
+  }
+  .WelcomeSection p{
+    font-size: 5vw;
+    color: white;
+    padding: 0vw 10vw;
+    font-weight: 100;
+  }
+  .VisionOut{
+    /* border: 1px solid red; */
+    margin: 16vw 5vw 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    box-shadow: 0.1vw 0.4vw 1.5vw rgba(0, 0, 0, 0.7);
+    border-radius: 0.6vw;
+  }
+  .VisionOut div{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+ .VisionImg{
+   display: none;
+ }
+ .VisionImgPhone{
+   /* border: 1px solid red; */
+   width: 42%;
+ }
+  /* .VisionOut div{ */
+    /* border: 1px solid green; */
+    /* margin-top: 0vw 4vw 0vw 4vw; */
+  /* } */
+  .VisionOut span{
+    /* border: 1px solid green; */
+    font-size: 8vw;
+    color: white;
+    font-weight: 300;
+    margin: 0vw 8vw 0vw 6vw;
+  }
+  .VisionOut p{
+    /* border: 1px solid yellow; */
+    font-size: 4.5vw;
+    color: white;
+    margin: 0vw 8vw 8vw 8vw;
+    font-weight:300;
+  }
+  .MissionOut{
+    /* border: 1px solid red; */
+    margin: 16vw 5vw 10vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    box-shadow: 0.1vw 0.4vw 1.5vw rgba(0, 0, 0, 0.7);
+    border-radius: 0.6vw;
+  }
+  .MissionOut div{
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .MissionOut span{
+    font-size: 8vw;
+    color: white;
+    font-weight: 300;
+    margin: 0vw 8vw 0vw 6vw;
+  }
+  .MissionOut p{
+    font-size: 4.5vw;
+    color: white;
+    margin: 0vw 8vw 8vw 8vw;
+    font-weight: 300;
+  }
+  #RoboconOutID{
+    padding-top: 20vw;
+    margin-top: -20vw;
+  }
+  .RoboconOut{
+    background: #CDFBFD;
+    padding: 2vw 5vw 2vw 5vw;
+  }
+  .RoboconHeadingOut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .RoboconHeading{
+    font-size: 9vw;
+    letter-spacing: 2.1vw;
+    font-weight: 450;
+  }
+  .RoboconSubHeading{
+    font-size: 4.15vw;
+    margin-left: -2vw;
+    margin-bottom: 8vw;
+  }
+  .RoboconDetailOut{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 5vw 0vw;
+  }
+  .RoboconDetailOut img{
+    /* border: 1px solid red; */
+    width: 56vw;
+    /* height: 14vw; */
+    margin-right: 2vw;
+    box-shadow: 0.4vw 0.4vw 1.5vw rgba(20, 28, 38, 0.25);
+  }
+  /* .MissionOut div{
+    margin-right: 4vw;
+  } */
+  .roboconDetailHead{
+    display: none;
+  }
+  .roboconDetailHeadPhone{
+    /* border: 1px solid red; */
+    color: black;
+    margin: 8vw auto;
+    font-size: 6vw;
+  }
+  .RoboconDetailOut p{
+    /* border: 1px solid red; */
+    font-size: 3.5vw;
+    color: black;
+    margin: 10vw 8vw;
+  }
+  .Sponsors{
+    /* border: 1px solid red; */
+    padding: 20vw 0vw 10vw 0vw;
+    margin-top: -10vw;
+  }
+  .Sponsors p{
+    font-size: 6vw;
+    font-weight: 500;
+    color: #7DF8FD;
+    margin: 0vw auto 9vw auto;
+  }
+  .Sponsors div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Sponsors img{
+    width: 22%;
+  }
+}

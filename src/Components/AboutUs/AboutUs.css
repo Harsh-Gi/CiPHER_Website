@@ -1,0 +1,68 @@
+@media screen and (min-width: 721px) {
+  .AboutUsTop{
+    box-shadow: 0.1vw 0.4vw 1.5vw rgba(0, 0, 0, 0.7);
+    margin: 5vw 5vw 10vw 5vw;
+    padding: 3.5vw 2vw;
+    font-size: 1.52vw;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+  }
+  .AchievementsSubHead{
+    margin: 3vw 5vw 8vw 5vw;
+    /* padding: 3.5vw 2vw; */
+    font-size: 1.52vw;
+    font-weight: 500;
+    color: white;
+    text-align: justify;
+  }
+  .GalleryOut{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 1vw auto 9vw auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0vw 0.4vw 1.5vw rgba(0, 0, 0, 0.4);
+    padding: 3vw 3vw 0vw 3vw;
+    border-radius: 0.2vw;
+  }
+  .GalleryOut img{
+    width: 31%;
+    height: 14vw;
+    margin-bottom: 3vw;
+    border-radius: 0.2vw;
+    box-shadow: 0vw 0.4vw 1vw rgba(0, 0, 0, 0.5);
+  }
+  .AlumniContainer{
+    /* border: 1px solid red; */
+    margin: 2vw 5vw 3.6vw 5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    border-radius: 0.2vw;
+    box-shadow: 0.1vw 0.4vw 1.5vw rgba(0, 0, 0, 0.7);
+    padding: 2.5vw;
+  }
+  .AlumniContainer img{
+    width: 10vw;
+    border-radius: 0.2vw;
+  }
+  .AlumniContainer div{
+    /* border: 1px solid green; */
+    margin-left: 2.5vw;
+  }
+  .AlumniContainer span{
+    font-size: 2.4vw;
+    color: white;
+    font-weight: 300;
+  }
+  .AlumniContainer p{
+    font-size: 1.3vw;
+    color: white;
+    margin-top: 2.5vw;
+    font-weight: 300;
+  }
+}

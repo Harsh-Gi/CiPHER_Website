@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a,button, HashLink{
+  -webkit-tap-highlight-color: transparent;
+}
+.App {
+  text-align: center;
+  background: #141C26;
+}

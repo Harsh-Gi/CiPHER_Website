@@ -1,0 +1,208 @@
+@media screen and (min-width: 721px) {
+  .Navbar{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 7.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 3.5vw;
+    position: sticky;
+    top: 0px;
+    /* backdrop-filter: blur(0.3vw); */
+    background: #141C26;
+    /* box-shadow: 0vw 0.4vw 2vw rgba(0, 0, 0, 0.15); */
+    z-index: 4;
+  }
+  .LeftNav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #7DF8FD;
+    font-size: 2.3vw;
+    /* font-weight: bold; */
+    /* font-family: Rubik; */
+  }
+  .LogoCipher{
+    height: 58%;
+    margin: 0vw 1vw 0vw 1.5vw;
+    filter: drop-shadow(0vw 0.5vw 1vw #38797B);
+  }
+  .RightNav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hamburgerBtn{
+    display: none;
+  }
+  .NavLinksOut{
+    /* filter: invert(19%) sepia(94%) saturate(7486%) hue-rotate(1deg) brightness(110%) contrast(117%); */
+    /* filter: invert(100%) sepia(4%) saturate(15%) hue-rotate(108deg) brightness(103%) contrast(100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0vw 1.7vw;
+  }
+  .NavLinksOut img{
+    filter: invert(100%) sepia(4%) saturate(15%) hue-rotate(108deg) brightness(103%) contrast(100%);
+    height: 1.7vw;
+  }
+  .NavLinks{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: 0vw 0vw 0vw 0.7vw;
+    font-size: 1.08vw;
+    font-weight: 400;
+    /* font-family: Rubik; */
+  }
+  .moreOptionsOutMobile{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+  .Navbar{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 4vw;
+    position: sticky;
+    top: 0px;
+    /* backdrop-filter: blur(0.3vw); */
+    background: #141C26;
+    /* box-shadow: 0vw 0.4vw 2vw rgba(0, 0, 0, 0.15); */
+    z-index: 4;
+  }
+  .LeftNav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #7DF8FD;
+    font-size: 5.2vw;
+    /* font-weight: bold; */
+    /* font-family: Rubik; */
+  }
+  .LogoCipher{
+    height: 58%;
+    margin: 0vw 3vw 0vw 0vw;
+    filter: drop-shadow(0vw 0.5vw 1vw #38797B);
+  }
+  .RightNav{
+    display: none;
+  }
+  .hamburgerBtn{
+    border: none;
+    outline: none;
+    width: 10vw;
+    /* height: 6vw; */
+    /* background: white; */
+    background: none;
+    /* border: 1px solid red; */
+    /* border-radius: 2vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 3vw;
+    z-index: 6;
+  }
+  .hamburgerLine{
+    height: 0.2vw;
+    width: 7vw;
+    background: white;
+    transform-origin: 0 0;
+    border-radius: 0.5vw;
+    margin: 0.75vw 0vw;
+    /* border: 1px solid green; */
+  }
+  /* .RightNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .moreOptionsOutMobile{
+    /* border: 1px solid red; */
+    position: fixed;
+    top: 20vw;
+    right: 0vw;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgba(20, 28, 38, 0.75);
+    /* border-top: 0.1vw solid rgba(255, 255, 255, 0.25);
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.25);
+    border-bottom: 0.1vw solid rgba(255, 255, 255, 0.22);
+    border-right: 0.1vw solid rgba(255, 255, 255, 0.22); */
+    padding: 6vw 4vw 6vw 6vw;
+    border-radius: 1vw;
+    /* box-shadow: 0vw 1vw 3vw rgba(0, 0, 0, 0.2); */
+    /* backdrop-filter: blur(0.8vw); */
+    max-height: calc(100vh - 24vw);
+    overflow-y: scroll;
+    /* min-height: calc(100vh - 24vw); */
+    /* height: 110vw; */
+    width: 0vw;
+    border-radius: 0vw 0vw 0vw 1vw;
+    /* backdrop-filter: blur(0.5vw); */
+    visibility: hidden;
+    transition: 0.1s;
+  }
+
+  .moreOptionsLinkOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw 0vw 4vw 0vw;
+  }
+  .moreOptionsLinkOut img{
+    filter: invert(100%) sepia(4%) saturate(15%) hue-rotate(108deg) brightness(103%) contrast(100%);
+    /* filter: invert(79%) sepia(90%) saturate(1512%) hue-rotate(159deg) brightness(105%) contrast(98%); */
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .moreOptionsLink{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    font-size: 3.9vw;
+    text-decoration: none;
+    color: white;
+    margin: 0vw 0vw 0vw 6vw;
+    /* font-weight: bolder; */
+  }
+
+  .moreOptionsImgMobile{
+    /* border: 1px solid green; */
+    width: 6vw;
+    height: 6vw;
+  }
+
+  .moreOptionsTextMobile{
+    /* border: 1px solid yellow; */
+    font-size: 5vw;
+    text-decoration: none;
+    color: black;
+    margin: 2vw 0vw 2vw 2vw;
+  }
+}

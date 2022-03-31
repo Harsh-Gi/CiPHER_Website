@@ -1,7 +1,7 @@
 @media screen and (max-width: 720px) {
-  .ActivitiesHead{
+  .ActivitiesHead {
     color: white;
-    text-align: left;
+    text-align: center;
     padding-top: 28vw;
     margin: -20vw 10vw 10vw 10vw;
     display: flex;
@@ -9,34 +9,40 @@
     justify-content: space-between;
     align-items: center;
   }
-  .ActivitiesHead div{
+
+  .ActivitiesHead div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
-  .ActivitiesHead h1{
+
+  .ActivitiesHead h1 {
     /* border: 1px solid red; */
     font-size: 6vw;
     font-weight: 500;
     width: 100%;
     text-align: left;
   }
-  .ActivitiesHead p{
+
+  .ActivitiesHead p {
     font-size: 4vw;
     font-weight: 300;
     margin-top: 6vw;
     text-align: justify;
     /* border: 1px solid red; */
   }
-  .ActivitiesHeadImg{
+
+  .ActivitiesHeadImg {
     display: none;
   }
-  .ActivitiesHeadImgPhone{
+
+  .ActivitiesHeadImgPhone {
     width: 100%;
     margin-top: 10vw;
   }
-  .ActivitiesTop{
+
+  .ActivitiesTop {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,19 +50,21 @@
     margin: 20vw 5vw 10vw 5vw;
     border-radius: 0.6vw;
     background: rgba(205, 251, 253, 1);
-    ;
   }
-  .ActivitiesTop img{
+
+  .ActivitiesTop img {
     width: 100%;
     border-radius: 0.6vw 0.6vw 0vw 0vw;
   }
-  .ActivitiesTop p{
+
+  .ActivitiesTop p {
     font-size: 3.5vw;
     font-weight: bold;
     margin: 4vw 4vw;
     text-align: justify;
   }
-  .ActivitiesContentOut{
+
+  .ActivitiesContentOut {
     /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
@@ -64,9 +72,10 @@
     align-items: center;
     flex-wrap: wrap;
     width: 90%;
-    margin: 20vw auto 10vw auto;
+    margin: 20vw auto 0vw auto;
   }
-  .ActivitiesContent{
+
+  .ActivitiesContent {
     /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
@@ -78,38 +87,79 @@
     box-shadow: 0vw 0.4vw 1.5vw rgba(0, 0, 0, 0.8);
     margin-bottom: 10vw;
   }
-  .ActivitiesContent span{
+
+  .ActivitiesContent span {
     /* border: 1px solid red; */
     font-size: 5.5vw;
     font-weight: 500;
     color: white;
     margin-bottom: 3.8vw;
   }
-  .AchievementImg{
+
+  .AchievementImg {
     width: 100%;
     height: 40vw;
     border-radius: 0.6vw;
   }
-  .ActivitiesContent p{
+
+  .ActivitiesContent p {
     color: white;
     font-size: 3.5vw;
     font-weight: 500;
     text-align: justify;
     margin-top: 4.8vw;
   }
-  .ProjectHead{
-    margin-left: 5vw;
-  }
-  .ProjectContainer{
-    /* border: 1px solid red; */
-    /* display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+
+  /* .ProjectHead {
+    margin-top: -5vw;
+    margin-bottom: -10vw;
+  } */
+
+  .ProjectOut {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 90%;
-    margin: 5vw auto 5vw auto;
-    padding: 1.8vw 2.8vw 2.8vw 2.8vw;
-    box-shadow: 0vw 0.4vw 1.5vw rgba(0, 0, 0, 0.8); */
+    margin: 0vw auto 1vw auto;
+  }
+
+  .ProjectContainer {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3.8vw 4.8vw 4.8vw 4.8vw;
+    border-radius: 0.2vw;
+    box-shadow: 0vw 0.4vw 1.5vw rgba(0, 0, 0, 0.8);
+    margin-bottom: 10vw;
+  }
+
+  .ProjectContainer span {
+    /* border: 1px solid red; */
+    font-size: 5.5vw;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 3.8vw;
+  }
+
+  .ProjectContainer img {
+    width: 100%;
+    /* height: 40vw; */
+    border-radius: 0.6vw;
+  }
+
+  .ProjectContainer p {
+    color: white;
+    font-size: 3.5vw;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 4.8vw;
+  }
+
+  /* .ProjectContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,39 +170,30 @@
     box-shadow: 0vw 0.4vw 1.5vw rgba(0, 0, 0, 0.8);
     margin: 0vw auto 10vw auto;
   }
-  .ProjectContainer span{
-    /* border: 1px solid red; */
-    /* display: block;
-    width: 100%;
-    font-size: 2.5vw;
-    font-weight: 500;
-    color: white;
-    margin-bottom: 2vw; */
+
+  .ProjectContainer span {
     font-size: 5.5vw;
     font-weight: 500;
     color: white;
     margin-bottom: 3.8vw;
   }
-  .IPASSliderImgs{
+
+  .IPASSliderImgs {
     height: 22vw;
     width: 100%;
     height: 100%;
     border-radius: 0.6vw;
   }
-  .ProjectContainer p{
-    /* color: white;
-    font-size: 1.52vw;
-    font-weight: 500;
-    text-align: justify;
-    width: 48.5%; */
-    /* margin-top: 2.8vw; */
+
+  .ProjectContainer p {
     color: white;
     font-size: 3.5vw;
     font-weight: 500;
     text-align: justify;
     margin-top: 4.8vw;
   }
-  .FillProjectSpace{
+
+  .FillProjectSpace {
     display: none;
-  }
+  } */
 }

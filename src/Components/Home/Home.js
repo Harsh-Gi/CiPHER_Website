@@ -9,6 +9,8 @@ import Mission from '../Images/Mission.gif'
 import RoboconImg1 from '../Images/RoboconImg1.png'
 import RoboconImg2 from '../Images/RoboconImg2.png'
 import Sponsors from '../Images/Sponsors.png'
+import SMTLogo from '../Images/SMTLogo.png'
+import NachiElectronicsLogo from '../Images/NachiElectronicsLogo.png'
 import './Home.css'
 import './HomePhone.css'
 
@@ -34,11 +36,10 @@ export default function Home() {
         /> */}
         <div>
           <h1>
-            Welcome!
+            Learn • Adapt • Grow
           </h1>
           <p>
-            We are Team CiPHER, the official Robocon team of JSPM Rajarshi Shahu College of Engineering, Tathawade, Pune, India. Our team is run by undergraduate students coming from different disciplines of engineering. Our team participates in the International Robotics Competition, ABU ROBOCON, annually. Apart from this, we conduct various workshops for students to help them explore the field of robotics.
-          </p>
+            We are Team CiPHER - the official Robocon team of JSPM Rajarshi Shahu College of Engineering, Tathawade, Pune, India. Our team is led by young robotics enthusiasts from various disciplines of engineering who collaborate to construct, design, and innovate robots. Every year, our team competes in an International Robotics Competition - ABU ROBOCON. Along with that, we also host several workshops for students to introduce them to the realm of Robotics.          </p>
         </div>
       </div>
       <div id='VisionOut' className='VisionOut'>
@@ -51,8 +52,7 @@ export default function Home() {
             Vision
           </span>
           <p>
-            To become a team that builds robots with capabilities of solving problems of our society and thus creating a better tomorrow.
-          </p>
+            To develop problem-solving and lifelong learning skills in young engineers through a project-based approach and to create a robot-friendly and innovation-based environment.          </p>
         </div>
       </div>
       <div id='MissionOut' className='MissionOut'>
@@ -62,8 +62,7 @@ export default function Home() {
           </span>
           <img className='VisionImgPhone' src={Mission} alt="Mission" />
           <p>
-            To make India a Global representative in the field of robotics by working relentlessly as a team and taking every effort that counts in making this aim come true.
-          </p>
+            We, as Team CiPHER, compete every year in ABU Robocon to represent as Team India, putting in endless hours to show that India can lead the world in the field of robotics. We, as a community, strive to connect with diligent, selfless, and enthusiastic individuals.          </p>
         </div>
         <img className='VisionImg' src={Mission} alt="Mission" />
       </div>
@@ -112,9 +111,8 @@ export default function Home() {
           Our Proud Sponsors
         </p>
         <div>
-          <img src={Sponsors} alt='Sponsors' />
-          <img src={Sponsors} alt='Sponsors' />
-          <img src={Sponsors} alt='Sponsors' />
+          <img src={SMTLogo} alt='SMTLogo' />
+          <img src={NachiElectronicsLogo} alt='NachiElectronicsLogo' />
         </div>
       </div>
     </div>

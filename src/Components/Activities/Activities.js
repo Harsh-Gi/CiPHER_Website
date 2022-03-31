@@ -11,6 +11,10 @@ import PCBCarousel from '../Carousels/WorkShops/PCBCarousel'
 import ROSCarousel from '../Carousels/WorkShops/ROSCarousel'
 import IOTCarousel from '../Carousels/WorkShops/IOTCarousel'
 
+import MazeSolving from '../Images/Projects/MazeSolving.png'
+import LabAutomation from '../Images/Projects/LabAutomation.jpg'
+import JetFire from '../Images/Projects/JetFire.jpg'
+
 import ColDetCarousel from '../Carousels/Projects/ColDetCarousel'
 import IPASCarousel from '../Carousels/Projects/IPASCarousel'
 
@@ -27,7 +31,7 @@ export default function Activities() {
           <h1>Workshops by our Team CiPHER</h1>
           <img className='ActivitiesHeadImgPhone' src={RobotScreen} />
           <p>
-            With a never-ending desire to push the boundaries of robotics, our team also believes that "Sharing Knowledge ensures the entry of New," thus our team hosts an annual "Robotics workshop" to assist students in expanding their knowledge and diving into the realm of robotics. We teach students numerous robotics principles and assist them in implementing them in their projects.
+            Amidst the global pandemic, we tried our level best to simplify the crux of robotics. We conduct online workshops to introduce students to new evolving technologies like Open CV, CAD Design, PCB Design, etc. We teach students numerous robotics principles and assist them in implementing them in their projects.
           </p>
         </div>
         <img className='ActivitiesHeadImg' src={RobotScreen} />
@@ -35,8 +39,7 @@ export default function Activities() {
       <div className="ActivitiesTop">
         <img src={WorkShopHead} />
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-        </p>
+          We conducted a workshop series wherein we covered topics like Open CV, CAD Design, Deep Learning, PCB Design, Robotics operating system (ROS), and Getting into the IoT World.         </p>
       </div>
       <div className="ActivitiesContentOut">
         <div className='ActivitiesContent'>
@@ -45,9 +48,9 @@ export default function Activities() {
           </span>
           <OpenCVCarousel />
           {/* <img src={ActivitiesContent} /> */}
-          <p>
+          {/* <p>
             With a never-ending desire to push the boundaries of robotics, our team also believes that
-          </p>
+          </p> */}
         </div>
         <div className='ActivitiesContent'>
           <span>
@@ -55,9 +58,9 @@ export default function Activities() {
           </span>
           {/* <img src={ActivitiesContent} /> */}
           <CADCarousel />
-          <p>
+          {/* <p>
             With a never-ending desire to push the boundaries of robotics, our team also believes that
-          </p>
+          </p> */}
         </div>
         <div className='ActivitiesContent'>
           <span>
@@ -65,9 +68,9 @@ export default function Activities() {
           </span>
           {/* <img src={ActivitiesContent} /> */}
           <DLCarousel />
-          <p>
+          {/* <p>
             With a never-ending desire to push the boundaries of robotics, our team also believes that
-          </p>
+          </p> */}
         </div>
         <div className='ActivitiesContent'>
           <span>
@@ -75,9 +78,9 @@ export default function Activities() {
           </span>
           {/* <img src={ActivitiesContent} /> */}
           <PCBCarousel />
-          <p>
+          {/* <p>
             With a never-ending desire to push the boundaries of robotics, our team also believes that
-          </p>
+          </p> */}
         </div>
         <div className='ActivitiesContent'>
           <span>
@@ -85,9 +88,9 @@ export default function Activities() {
           </span>
           {/* <img src={ActivitiesContent} /> */}
           <ROSCarousel />
-          <p>
+          {/* <p>
             With a never-ending desire to push the boundaries of robotics, our team also believes that
-          </p>
+          </p> */}
         </div>
         <div className='ActivitiesContent'>
           <span>
@@ -95,38 +98,69 @@ export default function Activities() {
           </span>
           {/* <img src={ActivitiesContent} /> */}
           <IOTCarousel />
-          <p>
+          {/* <p>
             With a never-ending desire to push the boundaries of robotics, our team also believes that
+          </p> */}
+        </div>
+      </div>
+      <div className="ProjectHead ActivitiesHead">
+        <h1 style={{ width: "100%", textAlign: "center" }}>Projects</h1>
+      </div>
+      <div className='ProjectOut'>
+        <div className='ProjectContainer'>
+          <span>
+            Maze Solver
+          </span>
+          <img src={MazeSolving} />
+          <p>
+            A robot that can detect the path without any assistance or help.
+          </p>
+        </div>
+        <div className='ProjectContainer'>
+          <span>
+            Lab Automation
+          </span>
+          <img src={LabAutomation} />
+          <p>
+            Lab Automation using RFID based non-contact technology Lock.
+          </p>
+        </div>
+        <div className='ProjectContainer'>
+          <span>
+            Jet Fire
+          </span>
+          <img src={JetFire} />
+          <p>
+            Modify the robot to include more capability for research purpose.
           </p>
         </div>
       </div>
-      <div className="ActivitiesHead ProjectHead">
-        <h1>Projects</h1>
-      </div>
-      <div className="ProjectContainer">
+
+
+
+
+      {/* <div className="ProjectContainer">
         <span>
           Color Detection and Line Follower
         </span>
-        {/* <img src={ActivitiesContent} /> */}
         <ColDetCarousel />
         <p>
           With a never-ending desire to push the boundaries of robotics, our team also believes that "Sharing Knowledge ensures the entry of New," thus our team hosts an annual "Robotics workshop" to assist students in expanding their knowledge and diving into the realm of robotics. We teach students numerous robotics principles and assist them in implementing them in their projects. With a never-ending desire to push the boundaries of robotics, our team also believes that "Sharing Knowledge ensures the entry of New," thus our team hosts an annual
         </p>
         <div className='FillProjectSpace'></div>
-      </div>
-      <div className="ProjectContainer">
+      </div> */}
+      {/* <div className="ProjectContainer">
         <span>
           IPAS
         </span>
-        {/* <img src={ActivitiesContent} /> */}
-        {/* <IPASCarousel /> */}
         <video className="IPASSliderImgs" controls>
           <source src={IPASSliderVideo} type="video/mp4" />
         </video>
         <p>
           With a never-ending desire to push the boundaries of robotics, our team also believes that "Sharing Knowledge ensures the entry of New," thus our team hosts an annual "Robotics workshop" to assist students in expanding their knowledge and diving into the realm of robotics. We teach students numerous robotics principles and assist them in implementing them in their projects. With a never-ending desire to push the boundaries of robotics, our team also believes that "Sharing Knowledge ensures the entry of New," thus our team hosts an annual
         </p>
-      </div>
+      </div> */}
+
       {/* <div className="ActivitiesContentOut">
         <div className='ActivitiesContentL'>
           <img src={ActivitiesContent} />
@@ -143,6 +177,6 @@ export default function Activities() {
           <img src={ActivitiesContent} />
         </div>
       </div> */}
-    </div>
+    </div >
   )
 }

@@ -1,14 +1,19 @@
 @media screen and (max-width: 720px) {
-  .AboutUsTop{
+  .AboutUsTop {
     box-shadow: 0.1vw 0.4vw 1.5vw rgba(0, 0, 0, 0.7);
-    margin: 5vw 5vw 20vw 5vw;
+    margin: 5vw 5vw 10vw 5vw;
     padding: 5vw 5vw;
     font-size: 3.5vw;
     font-weight: 500;
     color: white;
     text-align: justify;
   }
-  .AchievementsSubHead{
+
+  .AchievementHead {
+    margin-bottom: -8vw;
+  }
+
+  .AchievementsSubHead {
     margin: 3vw 5vw 10vw 5vw;
     /* padding: 3.5vw 2vw; */
     font-size: 3.5vw;
@@ -16,10 +21,11 @@
     color: white;
     text-align: justify;
   }
-  .GalleryOut{
+
+  .GalleryOut {
     /* border: 1px solid red; */
     width: 90%;
-    margin: 1vw auto 20vw auto;
+    margin: 0vw auto 10vw auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,14 +34,16 @@
     padding: 5vw 5vw 0vw 5vw;
     border-radius: 0.6vw;
   }
-  .GalleryOut img{
+
+  .GalleryOut img {
     width: 100%;
-    height: 40vw;
+    /* height: 40vw; */
     margin-bottom: 5vw;
     border-radius: 0.6vw;
     box-shadow: 0vw 0.4vw 1vw rgba(0, 0, 0, 0.5);
   }
-  .AlumniContainer{
+
+  .AlumniContainer {
     /* border: 1px solid red; */
     margin: 2vw 5vw 15vw 5vw;
     display: flex;
@@ -47,21 +55,25 @@
     box-shadow: 0.1vw 0.4vw 1.5vw rgba(0, 0, 0, 0.7);
     padding: 5vw;
   }
-  .AlumniContainer img{
+
+  .AlumniContainer img {
     width: 100%;
     border-radius: 0.6vw;
     margin: 0vw auto;
   }
-  .AlumniContainer div{
+
+  .AlumniContainer div {
     /* border: 1px solid green; */
     margin-top: 5vw;
   }
-  .AlumniContainer span{
+
+  .AlumniContainer span {
     font-size: 8vw;
     color: white;
     font-weight: 300;
   }
-  .AlumniContainer p{
+
+  .AlumniContainer p {
     font-size: 4.5vw;
     color: white;
     margin-top: 4vw;

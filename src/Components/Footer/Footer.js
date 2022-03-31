@@ -33,7 +33,7 @@ export default function Footer() {
               <img src={Insta} alt="Insta" />
               <img src={LinkedIn} alt="LinkedIn" />
               <span className='CopyRightSpan'>
-                © 2021 Team CiPHER | Powered by Team CiPHER
+                © 2022 Team CiPHER | Powered by Team CiPHER
               </span>
             </p>
           </div>

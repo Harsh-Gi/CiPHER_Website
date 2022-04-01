@@ -74,6 +74,10 @@
     align-items: center;
   }
 
+  /* .ContactUsContent div p a {
+    border: 1px solid red;
+  } */
+
   .ContactUsContent div p img {
     width: 1.5vw;
     margin-right: 2vw;
@@ -180,8 +184,12 @@
   .ContactUsContent div p {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
+
+  /* .ContactUsContent div p a {
+    border: 1px solid red;
+  } */
 
   .ContactUsContent div p img {
     width: 3vw;

@@ -7,6 +7,7 @@ import Email from '../Images/Email.png'
 import Phone from '../Images/Phone.png'
 import Insta from '../Images/Insta.png'
 import LinkedIn from '../Images/LinkedIn.png'
+import YouTubeLogo from '../Images/YouTubeLogo.svg'
 import './Footer.css'
 
 export default function Footer() {
@@ -28,10 +29,21 @@ export default function Footer() {
             </p>
             <div className='ContactUsPartition'></div>
             <p>
-              <img src={Email} alt="Email" />
-              <img src={Phone} alt="Phone" />
-              <img src={Insta} alt="Insta" />
-              <img src={LinkedIn} alt="LinkedIn" />
+              <a href='mailto:roboconteamcipher@gmail.com' target='_blank'>
+                <img src={Email} alt="Email" />
+              </a>
+              <a href='tel:+917719005081' target='_blank'>
+                <img src={Phone} alt="Phone" />
+              </a>
+              <a href='https://instagram.com/team_cipher_?utm_medium=copy_link' target='_blank'>
+                <img src={Insta} alt="Insta" />
+              </a>
+              <a href='https://www.linkedin.com/company/team-cipher' target='_blank'>
+                <img src={LinkedIn} alt="LinkedIn" />
+              </a>
+              <a href='https://youtube.com/channel/UC2WdOL8yJB0Q5HKLhgb3A2g' target='_blank'>
+                <img src={YouTubeLogo} alt="YouTubeLogo" />
+              </a>
               <span className='CopyRightSpan'>
                 © 2022 Team CiPHER | Powered by Team CiPHER
               </span>
@@ -44,3 +56,20 @@ export default function Footer() {
     </div>
   )
 }
+
+// Quick links
+
+// Instagram Profile link  :
+// https://instagram.com/team_cipher_?utm_medium=copy_link
+
+// LinkedIn Profile link :
+// https://www.linkedin.com/company/team-cipher
+
+// YouTube :
+// https://youtube.com/channel/UC2WdOL8yJB0Q5HKLhgb3A2g
+
+// Official Website link :
+// http://teamcipher.herokuapp.com/
+
+// E-mail :
+// roboconteamcipher@gmail.com

@@ -22,7 +22,7 @@
     font-size: 6vw;
     font-weight: 500;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 
   .ActivitiesHead p {
@@ -47,7 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20vw 5vw 10vw 5vw;
+    margin: 10vw 5vw 10vw 5vw;
     border-radius: 0.6vw;
     background: rgba(205, 251, 253, 1);
   }
@@ -106,7 +106,7 @@
     color: white;
     font-size: 3.5vw;
     font-weight: 500;
-    text-align: justify;
+    text-align: center;
     margin-top: 4.8vw;
   }
 
@@ -139,6 +139,9 @@
 
   .ProjectContainer span {
     /* border: 1px solid red; */
+    display: block;
+    width: 100%;
+    text-align: center;
     font-size: 5.5vw;
     font-weight: 500;
     color: white;
@@ -155,7 +158,7 @@
     color: white;
     font-size: 3.5vw;
     font-weight: 500;
-    text-align: justify;
+    text-align: center;
     margin-top: 4.8vw;
   }
 
